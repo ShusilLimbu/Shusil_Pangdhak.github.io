@@ -1,5 +1,6 @@
 {
-  "name": "shusilpangdhak",
+  "name": "ShusilPangdhak",
+  "home": "https://ShusilPangdhak.github.io/ShusilPangdhak-Copy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,6 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,16 +50,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShusilLimbu/Shusil-Pangdhak.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ShusilLimbu/Shusil-Pangdhak.github.io/issues"
-  },
-  "homepage": "https://github.com/ShusilLimbu/Shusil-Pangdhak.github.io#readme"
+    "url": "https://github.com/ShusilLimbu/ShusilPangdhak.github.io.git"
+  }
 }
