@@ -1,6 +1,6 @@
 {
   "name": "ShusilPangdhak",
-  "home": "https://ShusilPangdhak.github.io/ShusilPangdhak-Copy",
+  "home": "https://ShusilLimbu/Shusil_Pangdhak.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,7 +26,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,6 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShusilLimbu/ShusilPangdhak.github.io.git"
+    "url": "https://github.com/ShusilLimbu/Shusil_Pangdhak.github.io.git"
   }
 }
